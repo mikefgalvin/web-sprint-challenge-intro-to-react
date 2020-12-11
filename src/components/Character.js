@@ -1,13 +1,16 @@
 // Write your Character component here
 import React from 'react';
 import styled from 'styled-components';
+import Char from './char';
 
 const Character = (props) => {
     const { characters } = props
  
     // if (!props.dailyPhoto) return <StyledLoading>Loading...</StyledLoading>;
 
-
+    // let charactersArray = []
+    // charactersArray.push(characters);
+    // console.log('c array', charactersArray);
 
     console.log('data', characters)
 
@@ -39,6 +42,16 @@ const Character = (props) => {
     </div>
 
     )
+
+    // return (
+    //     <div className='charactcharactersrs'>
+    //        {
+    //            characters.map(char => {
+    //                return <Char char={char}/>
+    //            })
+    //        }
+    //     </div>
+    // )
 }
 
 const StyledChar = styled.div`
