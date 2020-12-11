@@ -13,7 +13,7 @@ const Character = (props) => {
 
 
     return (
-    <div className='characters'>
+    <div className='charactcharactersrs'>
         <StyledChar>
             <CharTitle> {characters.name} </CharTitle>
             <div>
